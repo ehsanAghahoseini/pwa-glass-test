@@ -9,7 +9,7 @@ import 'leaflet/dist/leaflet.css';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
-import React , {useEffect , useContext} from 'react';
+import React, { useEffect, useContext } from 'react';
 import localforage from 'localforage';
 import { toast } from "react-toastify";
 import Head from 'next/head';
@@ -46,12 +46,15 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         <link rel={"canonical"} href={"http://optics4less.com/"} />
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
         {/* <link rel="preload" as="font" /> */}
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png" />
-        <link rel="icon" type="image/ico" sizes="72x72" href="/pwa/assets/icons/icon-72x72.png" />
-        <link rel="manifest" href="/manifest.webmanifest" />
-        <link rel="mask-icon" href="/pwa/assets/icons/icon-512x512.png" color="#ffffff" />
-        <meta name="msapplication-TileColor" content="#FBF9F7" />
-        <meta name="theme-color" content="#FBF9F7" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+        <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#9f00a7" />
+        <meta name="theme-color" content="#ffffff" />
+
+
 
         <meta property={"og:image"} content={"/assets/about-logo.png"} />
         <meta property={"og:title"}
