@@ -1,0 +1,7 @@
+
+
+export declare type OrdrsModel =  {
+    
+}
+
+
