@@ -1,0 +1,5 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "com.example.optics4less",
+                 "sha256_cert_fingerprints": ["38:52:51:AB:EA:3A:26:75:3D:FE:3F:05:7B:82:93:10:E7:C4:EF:CD:07:B9:8E:AC:30:FD:FD:A3:66:46:A8:FC"] }
+  }]
