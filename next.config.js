@@ -14,5 +14,11 @@ const nextConfig = withPWA({
     typescript: {
         ignoreBuildErrors: true,
     },
+    async rewrites() {
+        return [{
+            source: '/manifest.json',
+            destination: '/api/manifest'
+        }];
+    }
 });
 module.exports = nextConfig;
